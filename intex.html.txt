@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Akshay Malik - Fitness Motivator</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url("https://i.ibb.co/fSjM3b1/11.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 20px;
+    border-bottom: 2px solid #e74c3c;
+  }
+  .profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 20px;
+    border: 5px solid #e74c3c;
+  }
+  .tagline {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .instagram-link,
+  .youtube-link,
+  .struggle-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  .struggle-button {
+    margin-top: 15px;
+    padding: 12px 30px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  .struggle-button:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+  }
+  .content {
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    margin: 20px;
+    text-align: left;
+  }
+</style>
+</head>
+<body>
+  <div class="header">
+    <h1>Welcome to the World of Fitness</h1>
+    <img src="https://i.ibb.co/F4fNhGF/webpage.png" alt="Akshay Malik" class="profile-img">
+    <div class="tagline">Empowering you to achieve your fitness goals!</div>
+    <a href="https://www.instagram.com/akshay_boxer_jaat/" class="instagram-link" target="_blank">Follow me on Instagram</a>
+    <a href="https://www.youtube.com/@MaliksHeaven" class="youtube-link" target="_blank">Subscribe on YouTube</a>
+    <a href="workout_story.html" class="struggle-button">My Struggle</a>
+  </div>
+  <div class="content">
+    <h2>The Inspiring Journey of a 13-Year-Old Boxer</h2>
+    <p>Once upon a time, in a bustling city, lived a young and determined 13-year-old named Akshay...</p>
+    <p>[check out]</p>
+  </div>
+</body>
+</html>
